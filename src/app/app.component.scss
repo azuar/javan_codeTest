@@ -1,0 +1,17 @@
+.card {
+    .card-header {
+        img {
+            width: 100%;
+        }
+    }
+
+    .card-body {
+        min-height: 300px;
+    }
+
+    .btn {
+        &:hover {
+            color: orange;
+        }
+    }
+}
